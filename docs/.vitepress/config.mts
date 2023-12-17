@@ -10,6 +10,7 @@ export default defineConfig({
   extends: blogTheme,
   // base: '/blog/',
   ignoreDeadLinks: true,
+  cleanURL:true,
   lang: 'zh-cn',
   title: "Ymri",
   description: '逃离现实|思考',
