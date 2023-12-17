@@ -2,16 +2,23 @@
   "name": "vitepress-blog",
   "version": "1.0.0",
   "private": true,
-  "author": "粥里有勺糖",
+  "author": "Ymri",
   "license": "MIT",
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
     "serve": "vitepress serve docs",
-    "view": "vitepress preview docs"
+    "view": "vitepress preview docs",
+    "elog:sync-local": "elog sync -e .elog.env",
+    "elog:sync": "elog sync",
+    "elog:clean": "elog clean",
+    "elog:sync-local-short": "elog sync -e .elog.env -c elog.config.shorturl.js -a elog.cache.shorturl.json",
+    "elog:sync-short": "elog sync -c elog.config.shorturl.js -a elog.cache.shorturl.json",
+    "elog:clean-short": "elog clean -c elog.config.shorturl.js -a elog.cache.shorturl.json"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.1.0",
+    "@elog/cli": "^0.13.0",
     "@sugarat/theme": "^0.2.9",
     "element-plus": "^2.3.8",
     "vue": "^3.3.4"
