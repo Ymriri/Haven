@@ -8,13 +8,13 @@ import { blogTheme } from './blog-theme'
 export default defineConfig({
   // 继承博客主题(@sugarat/theme)
   extends: blogTheme,
-  base: '/blog/',
+  // base: '/blog/',
   ignoreDeadLinks: true,
   lang: 'zh-cn',
   title: "Ymri",
   description: '逃离现实|思考',
   lastUpdated: true,
-  head: [['link', { rel: 'icon', href: './favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: './public/favicon.ico' }]],
   themeConfig: {
     lastUpdatedText: '上次更新于',
     logo: '/logo.png',

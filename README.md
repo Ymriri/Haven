@@ -1,29 +1,27 @@
 # vitepress @sugarat/theme
 简约风的 [Vitepress 博客主题](https://theme.sugarat.top)
 
-## Usage
-先安装 `pnpm`
-
+新建项目
 ```sh
-npm i -g pnpm
+yarn create @sugarat/theme
 ```
 
 安装依赖
 ```sh
-pnpm install
+yarn install
 ```
 
 开发启动
 ```sh
-pnpm dev
+yarn run dev
 ```
 
 构建
 ```sh
-pnpm build
+yarn run build
 ```
 
 预览产物
 ```sh
-pnpm serve
+yarn run serve
 ```
