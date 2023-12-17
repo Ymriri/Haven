@@ -14,7 +14,7 @@ export default defineConfig({
   title: "Ymri",
   description: '逃离现实|思考',
   lastUpdated: true,
-  head: [['link', { rel: 'icon', href: './public/favicon.ico' }]],
+  head: [['link', { rel: 'icon', href: 'favicon.ico' }]],
   themeConfig: {
     lastUpdatedText: '上次更新于',
     logo: '/logo.png',
