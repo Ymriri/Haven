@@ -21,7 +21,7 @@
     "@elog/cli": "^0.13.0",
     "@sugarat/theme": "^0.2.9",
     "element-plus": "^2.3.8",
-    "vue": "^3.3.4"
+    "vue": "^3.3.13"
   },
   "directories": {
     "doc": "docs"
