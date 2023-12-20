@@ -9,7 +9,7 @@
     "build": "vitepress build docs",
     "serve": "vitepress serve docs",
     "view": "vitepress preview docs",
-    "elog:sync-local": "elog sync -e .elog.env",
+    "sync": "elog sync -e .elog.env",
     "elog:sync": "elog sync",
     "elog:clean": "elog clean",
     "elog:sync-local-short": "elog sync -e .elog.env -c elog.config.shorturl.js -a elog.cache.shorturl.json",
