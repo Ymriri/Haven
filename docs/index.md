@@ -16,4 +16,6 @@ blog:
  # 设置 inspiringTimeout 可以实现自动切换
  inspiringTimeout: 10000
  pageSize: 10
+ # 移动端隐藏头部头像展示
+ minScreenAvatar: false
 ---
