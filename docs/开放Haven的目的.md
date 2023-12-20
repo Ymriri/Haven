@@ -1,11 +1,11 @@
 ---
+
 title: 开放Haven的目的
-description: 介绍本站的由来，让大家更快了解Ymri!
-cover: ./images/ec14fd7bd28932c9cb6ff76eb0e22a67.jpeg
-tags:
-- Haven
----
-![pang-yuhao-wCi28eq8TF4.jpg](images/ec14fd7bd28932c9cb6ff76eb0e22a67.jpeg)
+top: 1
+description: 一些关于Haven的想法
+tag:
+ - Haven
+---![pang-yuhao-wCi28eq8TF4.jpg](images/ec14fd7bd28932c9cb6ff76eb0e22a67.jpeg)
 ## 好青年打卡
 其实我一直有写一些笔记和个人思考，但是那都是零碎的，不仅排版不够美观，逻辑和语言也不通顺，一直以来只能作为和朋友聊天的话题的草稿。（~~这也是为什么我这么能水群~~）
 
