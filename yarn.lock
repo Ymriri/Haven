@@ -694,10 +694,10 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.14.0.tgz#9fb3a3cf3132328151f353de4632e01e52102bea"
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
 
-"@sugarat/theme@^0.2.9":
-  version "0.2.9"
-  resolved "https://registry.yarnpkg.com/@sugarat/theme/-/theme-0.2.9.tgz#df4a4f64950c9efa5045fa0a3e934c2aa82f115b"
-  integrity sha512-24bUbJN2oo7GrV0AimQONXe/cfTyh9oAcPMINPLvS5EKLgN7S5aVYL6eHWfzFd6o0MH6GE2PTWX8GS02jMyhHQ==
+"@sugarat/theme@^0.2.10":
+  version "0.2.10"
+  resolved "https://registry.yarnpkg.com/@sugarat/theme/-/theme-0.2.10.tgz#87b6ba69fd9e44e1337a83bcb34f8e0fa8e5c529"
+  integrity sha512-npdcNPqEWTjywnIuUxXTWeA8er+eGoPcyLoPxEKUvxtOwva7x7DhiWzstBZxZUMsqJ11Txtq433Pg7mwzSRLcA==
   dependencies:
     "@giscus/vue" "^2.3.0"
     "@mdit-vue/shared" "^0.12.0"
