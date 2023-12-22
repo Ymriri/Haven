@@ -25,3 +25,12 @@ yarn run build
 ```sh
 yarn run serve
 ```
+---
+更新
+```shell
+# 更新主题
+pnpm add @sugarat/theme@latest
+
+# 更新vitepress
+pnpm add vitepress@latest
+```
