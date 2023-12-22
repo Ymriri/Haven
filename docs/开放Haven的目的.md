@@ -1,11 +1,13 @@
 ---
-
 title: 开放Haven的目的
-top: 1
+date: '2023年12月22日20:49:53'
+cover: 'https://cdn.nlark.com/yuque/0/2023/jpeg/1663432/1702816591245-83d36a09-95fa-4c8f-b206-7268952fd0e4.jpeg'
 description: 一些关于Haven的想法
+top: 1
 tag:
- - Haven
+  - Haven
 ---
+# 开放Haven的目的
 ![pang-yuhao-wCi28eq8TF4.jpg](images/ec14fd7bd28932c9cb6ff76eb0e22a67.jpeg)
 ## 好青年打卡
 其实我一直有写一些笔记和个人思考，但是那都是零碎的，不仅排版不够美观，逻辑和语言也不通顺，一直以来只能作为和朋友聊天的话题的草稿。（~~这也是为什么我这么能水群~~）

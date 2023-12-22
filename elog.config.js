@@ -29,7 +29,7 @@ module.exports = {
       frontMatter: {
         enable: true,
         include: ['top','descriptionHTML','sticky','publish','tag','description',
-          'recommend'], // 只输出include包含的属性
+          'recommend','cover','hiddenCover','author','comment','date','recommend'], // 只输出include包含的属性
         exclude: [], // 不输出exclude包含的属性
       }
     }
