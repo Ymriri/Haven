@@ -28,7 +28,7 @@ module.exports = {
       formatExt: './elog.format.js',
       frontMatter: {
         enable: true,
-        include: [], // 只输出include包含的属性
+        include: ['top','descriptionHTML','sticky','publish',], // 只输出include包含的属性
         exclude: [], // 不输出exclude包含的属性
       }
     }
