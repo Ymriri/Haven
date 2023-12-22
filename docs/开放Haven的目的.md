@@ -1,7 +1,6 @@
 ---
 title: 开放Haven的目的
 date: '2023年12月22日20:49:53'
-cover: 'https://cdn.nlark.com/yuque/0/2023/jpeg/1663432/1702816591245-83d36a09-95fa-4c8f-b206-7268952fd0e4.jpeg'
 description: 一些关于Haven的想法
 top: 1
 tag:
