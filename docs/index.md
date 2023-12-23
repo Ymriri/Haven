@@ -3,7 +3,7 @@ layout: home
 # 首页部分元素定制
 blog:
  name: "Ymri's Haven"
- motto: 'Ymri 新开的空间'
+ # motto: 'Ymri 新开的空间' # 显示太难看了
  inspiring:
   - 👏🏻欢迎来到Ymri的隐藏空间，一起来寻找Ymri不为人知的秘密吧！
   - 我们去大草原的湖边 等候鸟飞回来~
