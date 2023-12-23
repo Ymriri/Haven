@@ -1,6 +1,6 @@
 ---
 title: Elog兼容语雀配置
-date: 2023年12月23日
+date: 2023-12-23T15:26:27.000Z
 description: 关于elog导出的一些修改
 top: 1
 tag:

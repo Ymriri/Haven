@@ -1,12 +1,12 @@
 ---
 title: GithubAction配置
-date: 2023年12月23日
+date: 2023-12-23T15:26:38.000Z
 description: 配置GithubAction和WorkFlows
 top: 2
 tag:
   - Haven
 ---
 # GithubAction配置
-![20230627_113319189_iOS.heic](images/def5e296c7fe345bb8a6aa2fb1c5ab35.heic)
+![atanas-malamov-oxdr4njBsTA.jpg](images/56e0a783143af4d8624c9acb11d93c31.jpeg)
 ## 配置TOKEN和密钥
 

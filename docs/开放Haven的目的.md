@@ -1,9 +1,9 @@
 ---
 title: 开放Haven的目的
-date: 2023-12-23 15:40:59
+date: 2023-12-22T20:49:53.000Z
 description: 一些关于Haven的想法
-published: false
 top: 1
+publish: false
 tag:
   - Haven
 ---
