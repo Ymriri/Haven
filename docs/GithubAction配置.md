@@ -1,6 +1,6 @@
 ---
 title: GithubAction配置
-date: 2023年12月23日
+date: 2023-12-23T15:26:38.000Z
 description: 配置GithubAction和WorkFlows
 top: 2
 tag:
