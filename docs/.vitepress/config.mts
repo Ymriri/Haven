@@ -28,7 +28,7 @@ export default defineConfig({
     socialLinks: [
       {
         icon: 'github',
-        link: 'https://github.com/ymriri'
+        link: 'https://github.com/Ymriri/Haven'
       }
     ],
     search: {
