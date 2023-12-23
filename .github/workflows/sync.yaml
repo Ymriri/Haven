@@ -30,25 +30,27 @@ jobs:
 
       - name: 拉取文档
         env:
-          YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
+          # YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
+          YUQUE_USERNAME: ${{ secrets.YUQUE_TOKEN }}
+          YUQUE_PASSWORD: ${{ secrets.YUQUE_TOKEN }}
           YUQUE_LOGIN: ${{ secrets.YUQUE_LOGIN }}
           YUQUE_REPO: ${{ secrets.YUQUE_REPO }}
         run: |
-          npm run elog:sync
+          npm run sync
 #          npm run elog:sync-short
 
       - name: 配置Git用户名邮箱
         run: |
-          git config --global user.name "1874"
-          git config --global user.email "me@mail.1874.cool"
+          git config --global user.name "Ymri"
+          git config --global user.email "1448265203@qq.com"
 
       - name: 提交拉取的文档到GitHub仓库
         run: |
           echo `date +"%Y-%m-%d %H:%M:%S"` begin > time.txt
           git add .
-          git commit -m "Refresh elog.cache.json" -a
+          git commit -m "update: yuque" -a
 
       - name: 推送文档到仓库
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.TOKEN }}
