@@ -2,7 +2,6 @@
 title: 开放Haven的目的
 date: '2023年12月22日20:49:53'
 description: 一些关于Haven的想法
-cover: https://img.cdn.sugarat.top/mdImg/MTY3MzE0Njg5NDY4OQ==673146894689
 top: 1
 tag:
   - Haven
