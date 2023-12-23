@@ -4,7 +4,7 @@ date: 2023-12-23T15:26:27.000Z
 description: 关于elog导出的一些修改
 top: 1
 tag:
-  - Haven
+  - 配置
 ---
 # Elog兼容语雀配置
 ![marc-marchal-o9sQxsixlng.jpg](images/e780d49eaaade96d2c3c51e449189e9f.jpeg)
