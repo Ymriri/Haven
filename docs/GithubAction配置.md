@@ -2,7 +2,7 @@
 title: GithubAction配置
 date: 2023-12-23T15:26:38.000Z
 description: 配置GithubAction和WorkFlows
-top: 2
+top: 3
 tag:
   - 配置
 ---
@@ -25,4 +25,19 @@ tag:
 ![image.png](images/cf92f57e957d8893c63bb9edb7ca20d8.png)
 
 自动化Action测试：[https://github.com/elog-x/serverless-api](https://github.com/elog-x/serverless-api)
+## 墙
+个别时候语雀推送并不会如期发生到上面那个免费的serverless-api，可以自己在语雀消息推送页面测试下，可能出现如下情况
+![image.png](images/d617480b2ff8b495121539a57a588a09.png)
+![image.png](images/c8bb4ed929d1288138d4deb0ee443fb6.png)
+可以选择自建一个服务，只需要接受到语雀发来更新请求，本地发送一个请求到githubAction（api接口没有墙），可以手动测试下，**token、user、repo**，这三个参数还是没变，自建服务网络上文档比较简单，就不详细说了。
+```javascript
+curl -X POST \
+-H "User-Agent: @elog/serverless-api" \
+-H "Accept: */*" \
+-H "Authorization: token TOKEN" \
+-d '{
+"event_type": "deploy"
+}' \
+"https://api.github.com/repos/user/repo/dispatches"
 
+```

@@ -3,6 +3,11 @@ import { defineConfig } from 'vitepress'
 // 导入主题的配置
 import { blogTheme } from './blog-theme'
 
+
+import taskLists from 'markdown-it-task-checkbox'
+
+
+
 // Vitepress 默认配置
 // 详见文档：https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -16,6 +21,19 @@ export default defineConfig({
   description: '逃离现实|思考',
   lastUpdated: true,
   head: [['link', { rel: 'icon', href: 'favicon.ico' }]],
+  markdown: {
+    config: (md) => {
+      md.use(taskLists, {
+        disabled: true,
+        divWrap: false,
+        divClass: 'checkbox',
+        idPrefix: 'cbx_',
+        ulClass: 'task-list',
+        liClass: 'task-list-item',
+      })
+    }
+  },
+  // 添加mark-task-list 插件
   themeConfig: {
     lastUpdatedText: '上次更新于',
     logo: '/logo.png',
@@ -34,5 +52,6 @@ export default defineConfig({
     search: {
       provider: 'local'
     }
-  }
-})
+  },
+
+  })
