@@ -32,6 +32,6 @@
   "devDependencies": {
     "sass": "^1.69.7",
     "typescript": "^5.1.6",
-    "vitepress": "^1.0.0-rc.32"
+    "vitepress": "^1.0.0-rc.36"
   }
 }
