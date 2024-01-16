@@ -12,9 +12,10 @@ tag:
 ## 持续集成
 借用elog原来的流程图，我们从语雀发布后会触发**Hooks**，但是**hooks**并不支持直接调用**github action api**，所以我们需要借助第三方工具转发更新，好在[yuque-vitepress](https://github.com/elog-x/yuque-vitepress)提供了免费的[serverless](https://github.com/elog-x/serverless-api)。
 ![image.png](images/18aac33ef54d3b72d8dc65a076fd2ea8.png)
-强烈建议先看原来的[新手文档](https://github.com/elog-x/yuque-vitepress)，我只是补充部分内容，不适合新手！！
+强烈建议先看原来的[新手文档](https://github.com/elog-x/yuque-vitepress)，我只是补充部分内容。
 
-部署Vercel 部分比较简单，看文档就行。
+注意在**vercel**里面设置时区为**Hong Kong**，不然更新时间会有问题，如下所示。
+![image.png](images/c4ba8c583bb5a1932c6305b2761241d4.png)
 ## Workflows配置
 仓库自带一个Workflows，仓库上方`Action`有个`Sync Docs`，具体配置文件在`./github/workflows/sync.yaml`，参数含义就不一一介绍了。
 ![image.png](images/210beb8f5bfba681547aec6447dc7741.png)
