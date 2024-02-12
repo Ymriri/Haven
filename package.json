@@ -20,7 +20,7 @@
     "@element-plus/icons-vue": "^2.1.0",
     "@elog/cli": "^0.13.1",
     "@mdit/plugin-tasklist": "^0.8.0",
-    "@sugarat/theme": "^0.2.15",
+    "@sugarat/theme": "^0.2.20",
     "element-plus": "^2.5.3",
     "markdown-it-task-checkbox": "^1.0.6",
     "markdown-it-task-lists": "^2.1.1",
