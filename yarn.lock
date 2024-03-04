@@ -706,10 +706,10 @@
   resolved "https://registry.npmjs.org/@sindresorhus/is/-/is-0.14.0.tgz"
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
 
-"@sugarat/theme@^0.2.15":
-  version "0.2.15"
-  resolved "https://registry.npmjs.org/@sugarat/theme/-/theme-0.2.15.tgz"
-  integrity sha512-QaZn+LPTQ9Jk5jWhAuk53Fy186xPBH77xG7eh7HTGpbFW43PL8rV9qW+k0vLgBzZEJt+WI8Oj7WM94ZtKe8c2A==
+"@sugarat/theme@^0.2.24":
+  version "0.2.24"
+  resolved "https://registry.yarnpkg.com/@sugarat/theme/-/theme-0.2.24.tgz#d185d163c3a7de308be09bb84c8bb78e4b103f77"
+  integrity sha512-T5zY9oNVlfRK/+OXFAcJibEePiOSrvhEM6D6agogXT+LxkfOrVyueRKp9+xwd8b3JdB/be8CAYumoS+Z1nCwYg==
   dependencies:
     "@giscus/vue" "^2.3.0"
     "@mdit-vue/shared" "^0.12.0"
@@ -720,9 +720,11 @@
     gray-matter "^4.0.3"
     markdown-it-task-checkbox "^1.0.6"
     mermaid "^10.2.4"
+    swiper "^11.0.5"
+    vitepress-markdown-timeline "^1.2.1"
     vitepress-plugin-mermaid "2.0.13"
-    vitepress-plugin-pagefind "0.2.10"
-    vitepress-plugin-rss "0.2.0"
+    vitepress-plugin-pagefind "0.2.12"
+    vitepress-plugin-rss "0.2.2"
     vitepress-plugin-tabs "0.2.0"
 
 "@szmarczak/http-timer@^1.1.2":
@@ -4596,6 +4598,11 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
+swiper@^11.0.5:
+  version "11.0.7"
+  resolved "https://registry.yarnpkg.com/swiper/-/swiper-11.0.7.tgz#fe51bb64546c2c21a1ec6914e7764af953443ded"
+  integrity sha512-cDfglW1B6uSmB6eB6pNmzDTNLmZtu5bWWa1vak0RU7fOI9qHjMzl7gVBvYSl34b0RU2N11HxxETJqQ5LeqI1cA==
+
 symbol-tree@^3.2.4:
   version "3.2.4"
   resolved "https://registry.npmjs.org/symbol-tree/-/symbol-tree-3.2.4.tgz"
@@ -5001,6 +5008,13 @@ vite@^5.0.12:
   optionalDependencies:
     fsevents "~2.3.3"
 
+vitepress-markdown-timeline@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/vitepress-markdown-timeline/-/vitepress-markdown-timeline-1.2.1.tgz#c61f708c1a3bce8ba137d8604b6d778a408d7131"
+  integrity sha512-XPYl/btTcTzW+XF20ITB51L8jPjbS72tSKPcv/CHJgM+3LbBvW8Az/X7RcBTJSXDNOwCY5mGkjA7CXQtuxOKgw==
+  dependencies:
+    dayjs "^1.11.7"
+
 vitepress-plugin-mermaid@2.0.13:
   version "2.0.13"
   resolved "https://registry.npmjs.org/vitepress-plugin-mermaid/-/vitepress-plugin-mermaid-2.0.13.tgz"
@@ -5008,10 +5022,10 @@ vitepress-plugin-mermaid@2.0.13:
   optionalDependencies:
     "@mermaid-js/mermaid-mindmap" "^9.3.0"
 
-vitepress-plugin-pagefind@0.2.10:
-  version "0.2.10"
-  resolved "https://registry.npmjs.org/vitepress-plugin-pagefind/-/vitepress-plugin-pagefind-0.2.10.tgz"
-  integrity sha512-4mn8+xjz6MuVV1ksYAbFeG4STn1jf87mIQFBrihAUsgjcIPoEhQhYWPln/vYnfD2LPEjB6rqLWCxDHTB7dqKXA==
+vitepress-plugin-pagefind@0.2.12:
+  version "0.2.12"
+  resolved "https://registry.yarnpkg.com/vitepress-plugin-pagefind/-/vitepress-plugin-pagefind-0.2.12.tgz#9b1db8e283989bb3ce14616bfce9a92a6fc99e64"
+  integrity sha512-1KAS5KVlXkdiL4PeaSHPYbKROCfmvnvCZ4ejFFnVa66Mf4oW+rsCkXxkyadGog4MBBYXWy3NbQrbeL5+zTFZQw==
   dependencies:
     "@vue/shared" "^3.2.45"
     "@vueuse/core" "^9.6.0"
@@ -5022,10 +5036,10 @@ vitepress-plugin-pagefind@0.2.10:
     vue "^3"
     vue-command-palette "^0.1.4"
 
-vitepress-plugin-rss@0.2.0:
-  version "0.2.0"
-  resolved "https://registry.npmjs.org/vitepress-plugin-rss/-/vitepress-plugin-rss-0.2.0.tgz"
-  integrity sha512-NA4EwCkvf6hZ2Vr6d64ItKOjs598SSL2DG+NL6GkiIp/jTdfoIs96BQ3FI/ARLC4i3V558D7NroVheGF8xc5Gw==
+vitepress-plugin-rss@0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/vitepress-plugin-rss/-/vitepress-plugin-rss-0.2.2.tgz#3e1df5e2db1327c4f6b750103ab54741b4e69937"
+  integrity sha512-d/IkQffeNe3HO9gFmJS6hk/dfX085tmOcezYM4EAPraaN+zz1UdZiYTpvQsxRQTYLpQZt/OsmL7Ker4bVRQ0Cw==
   dependencies:
     fast-glob "^3.2.12"
     feed "^4.2.2"
