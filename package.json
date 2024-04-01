@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.1.0",
-    "@elog/cli": "^0.13.2",
+    "@elog/cli": "^0.13.3",
     "@mdit/plugin-tasklist": "^0.8.0",
     "@sugarat/theme": "^0.2.24",
     "element-plus": "^2.5.6",
