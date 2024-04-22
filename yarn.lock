@@ -582,12 +582,12 @@
   resolved "https://registry.npmjs.org/@mdit-vue/types/-/types-0.12.0.tgz"
   integrity sha512-mrC4y8n88BYvgcgzq9bvTlDgFyi2zuvzmPilRvRc3Uz1iIvq8mDhxJ0rHKFUNzPEScpDvJdIujqiDrulMqiudA==
 
-"@mdit/plugin-tasklist@^0.8.0":
-  version "0.8.0"
-  resolved "https://registry.npmjs.org/@mdit/plugin-tasklist/-/plugin-tasklist-0.8.0.tgz"
-  integrity sha512-vfOTZdXIL/jk/ConUqCODI5WuqgB9qiBGc+wIa7UMhe73KcpwFeGFJVQZm9AvjhXDDYqznJxSMVRP/TN7TxVVw==
+"@mdit/plugin-tasklist@^0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@mdit/plugin-tasklist/-/plugin-tasklist-0.9.0.tgz#9b4caca2e6fd78d4e546eb33af749852f9afc051"
+  integrity sha512-Jf8qpTmp2qSMteHOCtkDjoWQpzUVLUm4onyN5mSpp64XjtnZmVMFtcTufGAGou+PsiM1l7w7+fVLJJkhKGwWQQ==
   dependencies:
-    "@types/markdown-it" "^13.0.7"
+    "@types/markdown-it" "^14.0.1"
 
 "@mermaid-js/mermaid-mindmap@^9.3.0":
   version "9.3.0"
@@ -813,6 +813,14 @@
   version "13.0.7"
   resolved "https://registry.npmjs.org/@types/markdown-it/-/markdown-it-13.0.7.tgz"
   integrity sha512-U/CBi2YUUcTHBt5tjO2r5QV/x0Po6nsYwQU4Y04fBS6vfoImaiZ6f8bi3CjTCxBPQSO1LMyUqkByzi8AidyxfA==
+  dependencies:
+    "@types/linkify-it" "*"
+    "@types/mdurl" "*"
+
+"@types/markdown-it@^14.0.1":
+  version "14.0.1"
+  resolved "https://registry.yarnpkg.com/@types/markdown-it/-/markdown-it-14.0.1.tgz#3d3fdf9dba83b69edececc070d39ec72b84270a7"
+  integrity sha512-6WfOG3jXR78DW8L5cTYCVVGAsIFZskRHCDo5tbqa+qtKVt4oDRVH7hyIWu1SpDQJlmIoEivNQZ5h+AGAOrgOtQ==
   dependencies:
     "@types/linkify-it" "*"
     "@types/mdurl" "*"
