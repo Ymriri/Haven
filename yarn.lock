@@ -176,13 +176,13 @@
   resolved "https://registry.npmjs.org/@element-plus/icons-vue/-/icons-vue-2.3.1.tgz"
   integrity sha512-XxVUZv48RZAd87ucGS48jPf6pKu0yV5UCg9f4FFwtrYxXOwWuVJo6wOvSLKEoMQKjv8GsX/mhP6UsC1lRwbUWg==
 
-"@elog/cli@^0.13.2":
-  version "0.13.2"
-  resolved "https://registry.yarnpkg.com/@elog/cli/-/cli-0.13.2.tgz#26b314b9f1e003e1d13f5840287082c4720fee0d"
-  integrity sha512-34xG8P8GDJpv8SJFHNbVyfZAv9ykwWzmTM7IMOn252nZy/hppk1tlz8I0ym9E2WWoNNMLBOzrH7tORY00liOeg==
+"@elog/cli@^0.13.4":
+  version "0.13.4"
+  resolved "https://registry.yarnpkg.com/@elog/cli/-/cli-0.13.4.tgz#75086915dd021eef30fbf3437cd39df4d5893d20"
+  integrity sha512-BYHTrftoL5nBkYED43cYlCL8rX+XxXOVW0Dai5PULwXChN2zVN/YGBZlbFzJcvGrBpgw0EznZZHailzZuR7Ovg==
   dependencies:
-    "@elog/core" "0.13.2"
-    "@elog/shared" "0.13.2"
+    "@elog/core" "0.13.4"
+    "@elog/shared" "0.13.4"
     commander "^9.4.1"
     dotenv "^16.0.3"
     fs-extra "^11.1.1"
@@ -190,128 +190,128 @@
     latest-version "5.1.0"
     semver "^7.3.8"
 
-"@elog/core@0.13.2":
-  version "0.13.2"
-  resolved "https://registry.yarnpkg.com/@elog/core/-/core-0.13.2.tgz#2aba76955d46ff15e33f9d47d059427bd18d8321"
-  integrity sha512-ywsNqnW7JovarPRT/2y7hzeN8KXyO0O8s6SZTwjZT8RyHy6XTqIFnQhRDNbdB3SwzCnSmW5fIT0//+4xeqnc3A==
+"@elog/core@0.13.4":
+  version "0.13.4"
+  resolved "https://registry.yarnpkg.com/@elog/core/-/core-0.13.4.tgz#c91cf47d206b519597d29f538be28635cc870bbd"
+  integrity sha512-ng8yCR26MSaaxi0ZXtKNG726uhlVTGnEiofluEfgmDH1+3PVyThiJyAlfFU1KylvZ4v2Z/JXFBhgpvQfeuU5Ag==
   dependencies:
-    "@elog/deploy" "0.13.2"
-    "@elog/plugin-image" "0.13.2"
-    "@elog/sdk-feishu" "0.13.2"
-    "@elog/sdk-flowus" "0.13.2"
-    "@elog/sdk-notion" "0.13.2"
-    "@elog/sdk-yuque" "0.13.2"
-    "@elog/shared" "0.13.2"
-    "@elog/types" "0.13.2"
+    "@elog/deploy" "0.13.4"
+    "@elog/plugin-image" "0.13.4"
+    "@elog/sdk-feishu" "0.13.4"
+    "@elog/sdk-flowus" "0.13.4"
+    "@elog/sdk-notion" "0.13.4"
+    "@elog/sdk-yuque" "0.13.4"
+    "@elog/shared" "0.13.4"
+    "@elog/types" "0.13.4"
 
-"@elog/deploy@0.13.2":
-  version "0.13.2"
-  resolved "https://registry.yarnpkg.com/@elog/deploy/-/deploy-0.13.2.tgz#f60a5a0ec4af9435f300d701dc1b5709ef6fb894"
-  integrity sha512-46od4dDgHTW//IEjy0BMpO3w8qExIjVZanwhIX6V2ByW1XlnF76i94dT7dpshS0hZY60/SFTCynDw9aBlrqBmQ==
+"@elog/deploy@0.13.4":
+  version "0.13.4"
+  resolved "https://registry.yarnpkg.com/@elog/deploy/-/deploy-0.13.4.tgz#3e3e3a53f6e412b3e235da8708d203eec9d294d1"
+  integrity sha512-kd+WnhxpVmV4o25pWq1fym5W3h13OVDH8OAoJc3gHGQ8YzncJnS5xnUxW5pAEo8TRQA6/2SYRpNh/wJLpl211Q==
   dependencies:
-    "@elog/plugin-adapter" "0.13.2"
-    "@elog/sdk-confluence" "0.13.2"
-    "@elog/sdk-halo" "0.13.2"
-    "@elog/sdk-wordpress" "0.13.2"
-    "@elog/shared" "0.13.2"
-    "@elog/types" "0.13.2"
+    "@elog/plugin-adapter" "0.13.4"
+    "@elog/sdk-confluence" "0.13.4"
+    "@elog/sdk-halo" "0.13.4"
+    "@elog/sdk-wordpress" "0.13.4"
+    "@elog/shared" "0.13.4"
+    "@elog/types" "0.13.4"
     filenamify "^4.3.0"
     mkdirp "^1.0.4"
     transliteration "^2.3.5"
 
-"@elog/plugin-adapter@0.13.2":
-  version "0.13.2"
-  resolved "https://registry.yarnpkg.com/@elog/plugin-adapter/-/plugin-adapter-0.13.2.tgz#810b62e404a3d880db36681328925ebd86eed6d4"
-  integrity sha512-Fe0dS8EJJm7CkAcq15ge3WHoBxJtZWtRJV97p41aaYCXLSa4kSRtNpyxJBWs0T/J9Xl1RD2qtDQ5kpOHQNCQxA==
+"@elog/plugin-adapter@0.13.4":
+  version "0.13.4"
+  resolved "https://registry.yarnpkg.com/@elog/plugin-adapter/-/plugin-adapter-0.13.4.tgz#71c5873dcaa0d5320c4f51666a0c3ccf6e84d2d8"
+  integrity sha512-W+S+efGxSYwJAijmB8J6CbsFVqY+6/akPtz7P1I2KI0CqSphd2TOvc57J9TwCONmqknrqLvIF9l+gDnHMDRHIw==
   dependencies:
-    "@elog/shared" "0.13.2"
-    "@elog/types" "0.13.2"
+    "@elog/shared" "0.13.4"
+    "@elog/types" "0.13.4"
     gray-matter "^4.0.3"
     highlight.js "^11.8.0"
     markdown-it "^13.0.2"
     marked "^5.1.1"
 
-"@elog/plugin-image@0.13.2":
-  version "0.13.2"
-  resolved "https://registry.yarnpkg.com/@elog/plugin-image/-/plugin-image-0.13.2.tgz#6b9e20fa13d45472664c0cd7885c8b6a77f5498c"
-  integrity sha512-EbBZijTxHxQ/gSLftpJSvWVRIw3dMSDvh1YhAD6VzBpqB87TmwuSfbYLVwtm3bWF4w6103qoVXcZxcYNJKJJew==
+"@elog/plugin-image@0.13.4":
+  version "0.13.4"
+  resolved "https://registry.yarnpkg.com/@elog/plugin-image/-/plugin-image-0.13.4.tgz#7e7b9d0f9eda70a8f4f805872775e6baceb5b6b3"
+  integrity sha512-rHfDy6DAsqekGVvOn+NcaRo8RhOYRSxiTxhlxnHojUKvMaGUtQVwe7L4KsEYfMCYNWamljAQpEj8GfJDl04p1g==
   dependencies:
-    "@elog/shared" "0.13.2"
-    "@elog/types" "0.13.2"
+    "@elog/shared" "0.13.4"
+    "@elog/types" "0.13.4"
     ali-oss "^6.17.1"
     cos-nodejs-sdk-v5 "^2.11.16"
     mkdirp "^1.0.4"
     qiniu "^7.8.0"
     upyun "^3.4.6"
 
-"@elog/sdk-confluence@0.13.2":
-  version "0.13.2"
-  resolved "https://registry.yarnpkg.com/@elog/sdk-confluence/-/sdk-confluence-0.13.2.tgz#ea5981c470ff09918b041737132d25e0d49efec3"
-  integrity sha512-WUrSIZqDaRUlZlcOCaB4uQiGqjsmWQ1XQOvt0zC70+/ZTFGEuoym8mTf7IveJVRuLo/sdzfKfoxgtU8DsvYQKw==
+"@elog/sdk-confluence@0.13.4":
+  version "0.13.4"
+  resolved "https://registry.yarnpkg.com/@elog/sdk-confluence/-/sdk-confluence-0.13.4.tgz#51720f4a8f1bca741eaa9a0d73c1f4465c88f23f"
+  integrity sha512-+3IT4MLfAEOQIpHwHHN8W4eiJcvQFyNUdG/KAEfeTJOEyxg0dj1ws/ZK60QPqwM8MW+I4/pxidZ5H8MIW7Sc/Q==
   dependencies:
-    "@elog/shared" "0.13.2"
-    "@elog/types" "0.13.2"
+    "@elog/shared" "0.13.4"
+    "@elog/types" "0.13.4"
 
-"@elog/sdk-feishu@0.13.2":
-  version "0.13.2"
-  resolved "https://registry.yarnpkg.com/@elog/sdk-feishu/-/sdk-feishu-0.13.2.tgz#f4617f05dedbed5404f732f99f76600262deee95"
-  integrity sha512-B0gU2vm3JFLBUNHjqJ3i/h1GAbRAA4hM+lcvcFGAg0p+bdRcBRC9QZwyzwNQ40n5p7sN6jLdlmBZLgNI8uY89Q==
+"@elog/sdk-feishu@0.13.4":
+  version "0.13.4"
+  resolved "https://registry.yarnpkg.com/@elog/sdk-feishu/-/sdk-feishu-0.13.4.tgz#e8a13b52beae431bdd67535d9dbf307c80586c6d"
+  integrity sha512-O49cAuk8cHNGUz3Zn/UPjVLul+hd4NUe4b2xbGlrNRbATwwtvzbR9Yz0NyDmQRM2VuAEKSm+/wqW5hGV5kpNlw==
   dependencies:
-    "@elog/shared" "0.13.2"
+    "@elog/shared" "0.13.4"
     "@feishux/api" "^0.3.1"
     "@feishux/doc-to-md" "^0.3.1"
     "@feishux/shared" "^0.3.1"
     front-matter "^4.0.2"
     tiny-async-pool "^1.3.0"
 
-"@elog/sdk-flowus@0.13.2":
-  version "0.13.2"
-  resolved "https://registry.yarnpkg.com/@elog/sdk-flowus/-/sdk-flowus-0.13.2.tgz#fa7bab03114b12065441ff719697350a197c71c7"
-  integrity sha512-L7ZZQJzuXowropAxoiMRmfcKyStGi75Cn938QxLwCA9wP1BWPaRi694n/2W+bQ3RSamQHRBV964FFiVwfE4gYw==
+"@elog/sdk-flowus@0.13.4":
+  version "0.13.4"
+  resolved "https://registry.yarnpkg.com/@elog/sdk-flowus/-/sdk-flowus-0.13.4.tgz#5d5c0f450785fd48a265af5e925ce9363e564bfa"
+  integrity sha512-ryAeGI/qL1VK9OREjxqzZhfeiITiy8sTm0UOKVjJ5FYCFlPsGA615pxmO+7gFpJnhOw6tVWQPIxzPYIORudUnA==
   dependencies:
-    "@elog/shared" "0.13.2"
+    "@elog/shared" "0.13.4"
     "@flowusx/flowus-client" "^0.0.5-beta.4"
     "@flowusx/flowus-to-md" "^0.0.5-beta.4"
     tiny-async-pool "^1.3.0"
 
-"@elog/sdk-halo@0.13.2":
-  version "0.13.2"
-  resolved "https://registry.yarnpkg.com/@elog/sdk-halo/-/sdk-halo-0.13.2.tgz#bd26a58c47016d1e13dfd008d79bc4c710bc95d4"
-  integrity sha512-MPp8naMnfDFvW4B3dz6t6qcVEidfbe+RYZQRrMf9w3xlZAKroqVkQRhVE8ZCKta6//7ZbT6ICBqq4W4AdlPqpw==
+"@elog/sdk-halo@0.13.4":
+  version "0.13.4"
+  resolved "https://registry.yarnpkg.com/@elog/sdk-halo/-/sdk-halo-0.13.4.tgz#8a0a5fb9306f19d2b6c2e692f193fb67f5388792"
+  integrity sha512-zwCnzx3xE2IWudtBPRCUMCLXEQSLYL8ON3+En5cf32p31Bt8L3pQaMSPBJLtOOHSBxtnXrwaA84kOyH4issx5w==
   dependencies:
-    "@elog/shared" "0.13.2"
-    "@elog/types" "0.13.2"
+    "@elog/shared" "0.13.4"
+    "@elog/types" "0.13.4"
     "@halo-dev/api-client" "2.10.0"
     formstream "^1.3.1"
 
-"@elog/sdk-notion@0.13.2":
-  version "0.13.2"
-  resolved "https://registry.yarnpkg.com/@elog/sdk-notion/-/sdk-notion-0.13.2.tgz#bb72d47191ffbf919cf6402d442ee030d74440ad"
-  integrity sha512-8BlCOtdRCNmQY2GAlKQNSbaTjuNFfSuGicgLOt5o/vSJlaLYR0wOU1Plg1BgCaoZ1eORdC/QA2Xe5KRn7Hrgkg==
+"@elog/sdk-notion@0.13.4":
+  version "0.13.4"
+  resolved "https://registry.yarnpkg.com/@elog/sdk-notion/-/sdk-notion-0.13.4.tgz#548835c8f46986962d6fcd3033f1f35e555499db"
+  integrity sha512-66TPQflkh/ItJ3NptLSgkU4C2SiIZ8UcfebF6bUU+sRfpEzF/yuCY5N6gAubA1VsWFfK0vkhGS6pvHoTKdXbQw==
   dependencies:
-    "@elog/shared" "0.13.2"
-    "@elog/types" "0.13.2"
+    "@elog/shared" "0.13.4"
+    "@elog/types" "0.13.4"
     "@notionhq/client" "^2.2.2"
     notion-to-md "~3.1.1"
     tiny-async-pool "^1.3.0"
 
-"@elog/sdk-wordpress@0.13.2":
-  version "0.13.2"
-  resolved "https://registry.yarnpkg.com/@elog/sdk-wordpress/-/sdk-wordpress-0.13.2.tgz#ff7acbb0b627207523b5bcac08b4bd333ea6867c"
-  integrity sha512-ICptnzdO7qhVPAl7puU1gHcyAHrltQwwz+yXqEiEnnr0xiCVsAK6fVu76Rpr0hiR+j+gn7cAXZ7DTg3YmLpTAw==
+"@elog/sdk-wordpress@0.13.4":
+  version "0.13.4"
+  resolved "https://registry.yarnpkg.com/@elog/sdk-wordpress/-/sdk-wordpress-0.13.4.tgz#339a77de09647dd8803e5b24fd610e693402d523"
+  integrity sha512-vGCPyY0/i8yfbsBLgoF21z4czg4md85RsJtNJ8B4wP6L0rhmnc8Kvs+Sec3n7C8uQ1Xu8UMhGPEf749iWzbMNA==
   dependencies:
-    "@elog/shared" "0.13.2"
-    "@elog/types" "0.13.2"
+    "@elog/shared" "0.13.4"
+    "@elog/types" "0.13.4"
     "@types/wpapi" "^1.1.1"
     wpapi "^1.2.2"
 
-"@elog/sdk-yuque@0.13.2":
-  version "0.13.2"
-  resolved "https://registry.yarnpkg.com/@elog/sdk-yuque/-/sdk-yuque-0.13.2.tgz#c9e0178d68575ff49a2034f45414026128a006f6"
-  integrity sha512-PVbd7JiVTFpTpptDSzgR6gbr6so866Xxox88+T7SJ9UvPOXs8+PjqtC4w1yWphvG7WUZit4PwiwwaQjWjm7fOQ==
+"@elog/sdk-yuque@0.13.4":
+  version "0.13.4"
+  resolved "https://registry.yarnpkg.com/@elog/sdk-yuque/-/sdk-yuque-0.13.4.tgz#f98c0d7c4fa040e334e5ceaa17b307be1638933d"
+  integrity sha512-w7vuSYHOnOKkeKYuPZPVWVfyZ46fbVRROGS+JmDr8dr5gLXfZOr18wki1zKHnG0BnpqGnm2nQxkBugm1iTnIKg==
   dependencies:
-    "@elog/shared" "0.13.2"
-    "@elog/types" "0.13.2"
+    "@elog/shared" "0.13.4"
+    "@elog/types" "0.13.4"
     front-matter "^4.0.2"
     jsdom "^21.1.1"
     jsencrypt-node "^1.0.4"
@@ -321,10 +321,10 @@
     unified "^9.2.2"
     urllib "2.40.0"
 
-"@elog/shared@0.13.2":
-  version "0.13.2"
-  resolved "https://registry.yarnpkg.com/@elog/shared/-/shared-0.13.2.tgz#8d1146dbe4cae1acb3ad8a6c8c17f56a821610a9"
-  integrity sha512-OmNMKcT9nuvq7UViaJJSCaYiDM5MnOlTxJNwUqawWCCNmfaQLPiUQYoItsVKis5uO8ShDHMNOk715dsFnk5hBg==
+"@elog/shared@0.13.4":
+  version "0.13.4"
+  resolved "https://registry.yarnpkg.com/@elog/shared/-/shared-0.13.4.tgz#8a140129f7304593b708eedc881625c4280730d2"
+  integrity sha512-1OWULuPqa9uPE3ht0/RG8LrUfIfDRpVswulQoZ26yUVpjo2Qdg8n8N0pOIw7ibyxdeyxVQpU5elD9jBVdMEVxg==
   dependencies:
     chalk "^4.1.2"
     dayjs "^1.11.10"
@@ -334,10 +334,10 @@
     shelljs "^0.8.5"
     urllib "2.40.0"
 
-"@elog/types@0.13.2":
-  version "0.13.2"
-  resolved "https://registry.yarnpkg.com/@elog/types/-/types-0.13.2.tgz#3ef22666f56b7077e1309e54e320cc5db780d316"
-  integrity sha512-Vh5z0WIEFFJohSWhjYTOR2ed3mbja3nJ3DRrPdzvCAj3RAFB6XY/Wr6lMn4PIcCMhvKk0aBXOD3+SFnI6JmWGA==
+"@elog/types@0.13.4":
+  version "0.13.4"
+  resolved "https://registry.yarnpkg.com/@elog/types/-/types-0.13.4.tgz#18294256ea79c5e55d0c371159b50617103523e0"
+  integrity sha512-8tRX2gNS0yH72pBbV5tBw/+oW+K5OESZVIQwSOev4+cB39qdtUIVSHrR7ewRdFSoKtUfEthjV73R2/AGMicGtw==
 
 "@esbuild/aix-ppc64@0.19.11":
   version "0.19.11"
