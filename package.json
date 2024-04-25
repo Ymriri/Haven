@@ -24,7 +24,7 @@
     "element-plus": "^2.5.6",
     "markdown-it-task-checkbox": "^1.0.6",
     "markdown-it-task-lists": "^2.1.1",
-    "vue": "^3.4.20"
+    "vue": "^3.4.23"
   },
   "directories": {
     "doc": "docs"
