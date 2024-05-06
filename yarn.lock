@@ -539,12 +539,12 @@
   resolved "https://registry.yarnpkg.com/@flowusx/flowus-types/-/flowus-types-0.0.5-beta.4.tgz#8e1c7208ae6740da660466bb6e66a9a22583e92a"
   integrity sha512-aQXSfidzKFRJrF8lVYA7r7QOvucBbiqkjvhx61dVSXMJXH8ePV3zJw5GOKz+woe6N9fRQXJJuXjqU/rIWoKDIA==
 
-"@giscus/vue@^2.3.0":
-  version "2.3.0"
-  resolved "https://registry.npmjs.org/@giscus/vue/-/vue-2.3.0.tgz"
-  integrity sha512-ZZ1ZRqRwoHEfYpepSozU4HKjvCQ/4PjVt6P391/c0F4ly1i57OUup2h6Pd+l7dUnh9j7fbqUp6CfFk5+99S3Jw==
+"@giscus/vue@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@giscus/vue/-/vue-2.4.0.tgz#d81b9c3171169a32aad3fcdb2c9941fbd1d4e094"
+  integrity sha512-QOxKHgsMT91myyQagP2v20YYAei1ByZuc3qcaYxbHx4AwOeyVrybDIuRFwG9YDv6OraC86jYnU4Ixd37ddC/0A==
   dependencies:
-    giscus "^1.3.0"
+    giscus "^1.4.0"
 
 "@halo-dev/api-client@2.10.0":
   version "2.10.0"
@@ -556,21 +556,21 @@
   resolved "https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.15.tgz"
   integrity sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==
 
-"@lit-labs/ssr-dom-shim@^1.0.0", "@lit-labs/ssr-dom-shim@^1.1.0":
-  version "1.1.2"
-  resolved "https://registry.npmjs.org/@lit-labs/ssr-dom-shim/-/ssr-dom-shim-1.1.2.tgz"
-  integrity sha512-jnOD+/+dSrfTWYfSXBXlo5l5f0q1UuJo3tkbMDCYA2lKUYq79jaxqtGEvnRoh049nt1vdo1+45RinipU6FGY2g==
+"@lit-labs/ssr-dom-shim@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@lit-labs/ssr-dom-shim/-/ssr-dom-shim-1.2.0.tgz#353ce4a76c83fadec272ea5674ede767650762fd"
+  integrity sha512-yWJKmpGE6lUURKAaIltoPIE/wrbY3TEkqQt+X0m+7fQNnAv0keydnYvbiJFP1PnMhizmIWRWOG5KLhYyc/xl+g==
 
-"@lit/reactive-element@^1.3.0", "@lit/reactive-element@^1.6.0":
-  version "1.6.3"
-  resolved "https://registry.npmjs.org/@lit/reactive-element/-/reactive-element-1.6.3.tgz"
-  integrity sha512-QuTgnG52Poic7uM1AN5yJ09QMe0O28e10XzSvWDz02TJiiKee4stsiownEIadWm8nYzyDAyT+gKzUoZmiWQtsQ==
+"@lit/reactive-element@^2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@lit/reactive-element/-/reactive-element-2.0.4.tgz#8f2ed950a848016383894a26180ff06c56ae001b"
+  integrity sha512-GFn91inaUa2oHLak8awSIigYz0cU0Payr1rcFsrkf5OJ5eSPxElyZfKh0f2p9FsTiZWXQdWGJeXZICEfXXYSXQ==
   dependencies:
-    "@lit-labs/ssr-dom-shim" "^1.0.0"
+    "@lit-labs/ssr-dom-shim" "^1.2.0"
 
-"@mdit-vue/shared@^0.12.0":
+"@mdit-vue/shared@^0.12.1":
   version "0.12.1"
-  resolved "https://registry.npmjs.org/@mdit-vue/shared/-/shared-0.12.1.tgz"
+  resolved "https://registry.yarnpkg.com/@mdit-vue/shared/-/shared-0.12.1.tgz#b67cbfc71cac6fb49a7a0be169cd53d921e30344"
   integrity sha512-bXgd0KThe4jC2leCFDFsyrudXIckvTwV4WnQK/rRMrXq0/BAuVdSNdIv1LGCWZxD5+oDyPyEPd0lalTIFwqsmg==
   dependencies:
     "@mdit-vue/types" "0.12.0"
@@ -718,25 +718,26 @@
   resolved "https://registry.npmjs.org/@sindresorhus/is/-/is-0.14.0.tgz"
   integrity sha512-9NET910DNaIPngYnLLPeg+Ogzqsi9uM4mSboU5y6p8S5DzMTVEsJZrawi+BoDNUVBa2DhJqQYUFvMDfgU062LQ==
 
-"@sugarat/theme@^0.2.24":
-  version "0.2.24"
-  resolved "https://registry.yarnpkg.com/@sugarat/theme/-/theme-0.2.24.tgz#d185d163c3a7de308be09bb84c8bb78e4b103f77"
-  integrity sha512-T5zY9oNVlfRK/+OXFAcJibEePiOSrvhEM6D6agogXT+LxkfOrVyueRKp9+xwd8b3JdB/be8CAYumoS+Z1nCwYg==
+"@sugarat/theme@^0.3.4":
+  version "0.3.4"
+  resolved "https://registry.yarnpkg.com/@sugarat/theme/-/theme-0.3.4.tgz#37a18e4684e51ccb2d903018f717f6a2ebd23a7f"
+  integrity sha512-wepZuVS/sXfS6MqhNw7bA7WflCbJofBJQQFAHPVWWKC2to/6y8k7I4mu4SOqmPKz1zxCpoeCViLENlC79Cs3wg==
   dependencies:
-    "@giscus/vue" "^2.3.0"
-    "@mdit-vue/shared" "^0.12.0"
+    "@giscus/vue" "^2.4.0"
+    "@mdit-vue/shared" "^0.12.1"
     "@mermaid-js/mermaid-mindmap" "^9.3.0"
-    "@vue/shared" "^3.2.45"
-    "@vueuse/core" "^9.6.0"
-    fast-glob "^3.2.12"
+    "@vue/shared" "^3.4.26"
+    "@vueuse/core" "^9.13.0"
+    fast-glob "^3.3.2"
     gray-matter "^4.0.3"
     markdown-it-task-checkbox "^1.0.6"
-    mermaid "^10.2.4"
-    swiper "^11.0.5"
+    mermaid "^10.9.0"
+    oh-my-live2d "^0.17.0"
+    swiper "^11.1.1"
     vitepress-markdown-timeline "^1.2.1"
     vitepress-plugin-mermaid "2.0.13"
-    vitepress-plugin-pagefind "0.2.12"
-    vitepress-plugin-rss "0.2.2"
+    vitepress-plugin-pagefind "0.2.14"
+    vitepress-plugin-rss "0.2.4"
     vitepress-plugin-tabs "0.2.0"
 
 "@szmarczak/http-timer@^1.1.2":
@@ -991,10 +992,15 @@
     "@vue/compiler-ssr" "3.4.23"
     "@vue/shared" "3.4.23"
 
-"@vue/shared@3.4.23", "@vue/shared@^3.2.45":
+"@vue/shared@3.4.23":
   version "3.4.23"
   resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.4.23.tgz#e536a6dfd2f5f950d08c2e8ebcfe7e5329a851a1"
   integrity sha512-wBQ0gvf+SMwsCQOyusNw/GoXPV47WGd1xB5A1Pgzy0sQ3Bi5r5xm3n+92y3gCnB3MWqnRDdvfkRGxhKtbBRNgg==
+
+"@vue/shared@^3.2.45", "@vue/shared@^3.4.26":
+  version "3.4.26"
+  resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.4.26.tgz#f17854fb1faf889854aed4b23b60e86a8cab6403"
+  integrity sha512-Fg4zwR0GNnjzodMt3KRy2AWGMKQXByl56+4HjN87soxLNU9P5xcJkstAlIeEF3cU6UYOzmJl1tV0dVPGIljCnQ==
 
 "@vueuse/core@10.7.2", "@vueuse/core@^10.7.2":
   version "10.7.2"
@@ -1006,7 +1012,7 @@
     "@vueuse/shared" "10.7.2"
     vue-demi ">=0.14.6"
 
-"@vueuse/core@^9.1.0", "@vueuse/core@^9.6.0":
+"@vueuse/core@^9.1.0", "@vueuse/core@^9.13.0", "@vueuse/core@^9.6.0":
   version "9.13.0"
   resolved "https://registry.npmjs.org/@vueuse/core/-/core-9.13.0.tgz"
   integrity sha512-pujnclbeHWxxPRqXWmdkKV5OX4Wk4YeK7wusHqRwU0Q7EFusHoqNA/aPhB6KCh9hEqJkLAJo7bb0Lh9b+OIVzw==
@@ -1507,6 +1513,11 @@ commander@7:
   resolved "https://registry.npmjs.org/commander/-/commander-7.2.0.tgz"
   integrity sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==
 
+commander@^8.3.0:
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/commander/-/commander-8.3.0.tgz#4837ea1b2da67b9c616a67afbb0fafee567bca66"
+  integrity sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==
+
 commander@^9.4.1:
   version "9.5.0"
   resolved "https://registry.npmjs.org/commander/-/commander-9.5.0.tgz"
@@ -1631,6 +1642,11 @@ cytoscape@^3.23.0:
   dependencies:
     heap "^0.2.6"
     lodash "^4.17.21"
+
+cytoscape@^3.28.1:
+  version "3.29.2"
+  resolved "https://registry.yarnpkg.com/cytoscape/-/cytoscape-3.29.2.tgz#c99f42513c80a75e2e94858add32896c860202ac"
+  integrity sha512-2G1ycU28Nh7OHT9rkXRLpCDP30MKH1dXJORZuBhtEhEW7pKwgPi77ImqlCWinouyE1PNepIOGZBOrE84DG7LyQ==
 
 "d3-array@1 - 2":
   version "2.12.1"
@@ -2130,10 +2146,10 @@ element-plus@^2.7.1:
     memoize-one "^6.0.0"
     normalize-wheel-es "^1.2.0"
 
-elkjs@^0.8.2:
-  version "0.8.2"
-  resolved "https://registry.npmjs.org/elkjs/-/elkjs-0.8.2.tgz"
-  integrity sha512-L6uRgvZTH+4OF5NE/MBbzQx/WYpru1xCBE9respNj6qznEewGUIfhzmm7horWWxbNO2M0WckQypGctR8lH79xQ==
+elkjs@^0.9.0:
+  version "0.9.3"
+  resolved "https://registry.yarnpkg.com/elkjs/-/elkjs-0.9.3.tgz#16711f8ceb09f1b12b99e971b138a8384a529161"
+  integrity sha512-f/ZeWvW/BCXbhGEf1Ujp29EASo/lk1FDnETgNKwJrsVvGZhUWCZyg3xLJjAsxfOmt8KjswHmI5EwCQcPMpOYhQ==
 
 emoji-regex@^8.0.0:
   version "8.0.0"
@@ -2295,9 +2311,9 @@ fast-deep-equal@^3.1.1:
   resolved "https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz"
   integrity sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==
 
-fast-glob@^3.2.12:
+fast-glob@^3.2.12, fast-glob@^3.3.2:
   version "3.3.2"
-  resolved "https://registry.npmjs.org/fast-glob/-/fast-glob-3.3.2.tgz"
+  resolved "https://registry.yarnpkg.com/fast-glob/-/fast-glob-3.3.2.tgz#a904501e57cfdd2ffcded45e99a54fef55e46129"
   integrity sha512-oX2ruAFQwf/Orj8m737Y5adxDQO0LAB7/S5MnxCdTNDd4p6BsyIVsv9JQsATbTSq8KHRpLwIHbVlUNatxd+1Ow==
   dependencies:
     "@nodelib/fs.stat" "^2.0.2"
@@ -2554,12 +2570,12 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
-giscus@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.npmjs.org/giscus/-/giscus-1.3.0.tgz"
-  integrity sha512-A3tVLgSmpnh2sX9uGjo9MbzmTTEJirSyFUPRvkipvy37y9rhxUYDoh9kO37QVrP7Sc7QuJ+gihB6apkO0yDyTw==
+giscus@^1.4.0:
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/giscus/-/giscus-1.5.0.tgz#8299fa056b2ed31ec8b05d4645871e016982b4b2"
+  integrity sha512-t3LL0qbSO3JXq3uyQeKpF5CegstGfKX/0gI6eDe1cmnI7D56R7j52yLdzw4pdKrg3VnufwCgCM3FDz7G1Qr6lg==
   dependencies:
-    lit "^2.7.5"
+    lit "^3.1.2"
 
 glob-parent@^5.1.2, glob-parent@~5.1.2:
   version "5.1.2"
@@ -3136,6 +3152,13 @@ jstoxml@^2.0.0:
   resolved "https://registry.npmjs.org/jstoxml/-/jstoxml-2.2.9.tgz"
   integrity sha512-OYWlK0j+roh+eyaMROlNbS5cd5R25Y+IUpdl7cNdB8HNrkgwQzIS7L9MegxOiWNBj9dQhA/yAxiMwCC5mwNoBw==
 
+katex@^0.16.9:
+  version "0.16.10"
+  resolved "https://registry.yarnpkg.com/katex/-/katex-0.16.10.tgz#6f81b71ac37ff4ec7556861160f53bc5f058b185"
+  integrity sha512-ZiqaC04tp2O5utMsl2TEZTXxa6WSC4yo0fv5ML++D3QZv/vx2Mct0mTlRx3O+uUkjfuAgOkzsCmq5MiUEsDDdA==
+  dependencies:
+    commander "^8.3.0"
+
 keyv@^3.0.0:
   version "3.1.0"
   resolved "https://registry.npmjs.org/keyv/-/keyv-3.1.0.tgz"
@@ -3195,30 +3218,30 @@ linkify-it@^4.0.1:
   dependencies:
     uc.micro "^1.0.1"
 
-lit-element@^3.3.0:
-  version "3.3.3"
-  resolved "https://registry.npmjs.org/lit-element/-/lit-element-3.3.3.tgz"
-  integrity sha512-XbeRxmTHubXENkV4h8RIPyr8lXc+Ff28rkcQzw3G6up2xg5E8Zu1IgOWIwBLEQsu3cOVFqdYwiVi0hv0SlpqUA==
+lit-element@^4.0.4:
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/lit-element/-/lit-element-4.0.5.tgz#f20cd8a6231eaf5358f7a6877ca6ea7628fa2015"
+  integrity sha512-iTWskWZEtn9SyEf4aBG6rKT8GABZMrTWop1+jopsEOgEcugcXJGKuX5bEbkq9qfzY+XB4MAgCaSPwnNpdsNQ3Q==
   dependencies:
-    "@lit-labs/ssr-dom-shim" "^1.1.0"
-    "@lit/reactive-element" "^1.3.0"
-    lit-html "^2.8.0"
+    "@lit-labs/ssr-dom-shim" "^1.2.0"
+    "@lit/reactive-element" "^2.0.4"
+    lit-html "^3.1.2"
 
-lit-html@^2.8.0:
-  version "2.8.0"
-  resolved "https://registry.npmjs.org/lit-html/-/lit-html-2.8.0.tgz"
-  integrity sha512-o9t+MQM3P4y7M7yNzqAyjp7z+mQGa4NS4CxiyLqFPyFWyc4O+nodLrkrxSaCTrla6M5YOLaT3RpbbqjszB5g3Q==
+lit-html@^3.1.2:
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/lit-html/-/lit-html-3.1.3.tgz#ae2e9fee0258d0a1b5d7b86c87da51117e4f911b"
+  integrity sha512-FwIbqDD8O/8lM4vUZ4KvQZjPPNx7V1VhT7vmRB8RBAO0AU6wuTVdoXiu2CivVjEGdugvcbPNBLtPE1y0ifplHA==
   dependencies:
     "@types/trusted-types" "^2.0.2"
 
-lit@^2.7.5:
-  version "2.8.0"
-  resolved "https://registry.npmjs.org/lit/-/lit-2.8.0.tgz"
-  integrity sha512-4Sc3OFX9QHOJaHbmTMk28SYgVxLN3ePDjg7hofEft2zWlehFL3LiAuapWc4U/kYwMYJSh2hTCPZ6/LIC7ii0MA==
+lit@^3.1.2:
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/lit/-/lit-3.1.3.tgz#809ecdaccfea47e1e3b46649fae6c6e7b9802675"
+  integrity sha512-l4slfspEsnCcHVRTvaP7YnkTZEZggNFywLEIhQaGhYDczG+tu/vlgm/KaWIEjIp+ZyV20r2JnZctMb8LeLCG7Q==
   dependencies:
-    "@lit/reactive-element" "^1.6.0"
-    lit-element "^3.3.0"
-    lit-html "^2.8.0"
+    "@lit/reactive-element" "^2.0.4"
+    lit-element "^4.0.4"
+    lit-html "^3.1.2"
 
 locate-path@^3.0.0:
   version "3.0.0"
@@ -3381,23 +3404,23 @@ merge2@^1.3.0:
   resolved "https://registry.npmjs.org/merge2/-/merge2-1.4.1.tgz"
   integrity sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==
 
-mermaid@^10.2.4:
-  version "10.6.1"
-  resolved "https://registry.npmjs.org/mermaid/-/mermaid-10.6.1.tgz"
-  integrity sha512-Hky0/RpOw/1il9X8AvzOEChfJtVvmXm+y7JML5C//ePYMy0/9jCEmW1E1g86x9oDfW9+iVEdTV/i+M6KWRNs4A==
+mermaid@^10.9.0:
+  version "10.9.0"
+  resolved "https://registry.yarnpkg.com/mermaid/-/mermaid-10.9.0.tgz#4d1272fbe434bd8f3c2c150554dc8a23a9bf9361"
+  integrity sha512-swZju0hFox/B/qoLKK0rOxxgh8Cf7rJSfAUc1u8fezVihYMvrJAS45GzAxTVf4Q+xn9uMgitBcmWk7nWGXOs/g==
   dependencies:
     "@braintree/sanitize-url" "^6.0.1"
     "@types/d3-scale" "^4.0.3"
     "@types/d3-scale-chromatic" "^3.0.0"
-    cytoscape "^3.23.0"
+    cytoscape "^3.28.1"
     cytoscape-cose-bilkent "^4.1.0"
-    cytoscape-fcose "^2.1.0"
     d3 "^7.4.0"
     d3-sankey "^0.12.3"
     dagre-d3-es "7.0.10"
     dayjs "^1.11.7"
     dompurify "^3.0.5"
-    elkjs "^0.8.2"
+    elkjs "^0.9.0"
+    katex "^0.16.9"
     khroma "^2.0.0"
     lodash-es "^4.17.21"
     mdast-util-from-markdown "^1.3.0"
@@ -3788,6 +3811,11 @@ object-inspect@^1.9.0:
   version "1.13.1"
   resolved "https://registry.npmjs.org/object-inspect/-/object-inspect-1.13.1.tgz"
   integrity sha512-5qoj1RUiKOMsCCNLV1CBiPYE10sziTsnmNxkAI/rZhiD63CF7IqdFGC/XzjWjpSgLf0LxXX3bDFIh0E18f6UhQ==
+
+oh-my-live2d@^0.17.0:
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/oh-my-live2d/-/oh-my-live2d-0.17.0.tgz#36d8ecf16b83451aabc2b0fa4e94c07b5a132e40"
+  integrity sha512-rsDCoGiHpCoEXTUxTkni5WJpdZwPMk4fT7wh56VlTue/9AAC+CiNR/VYVC3esIg4LtQqqcXb/5+PahXCFZC1yw==
 
 once@^1.3.0, once@^1.3.1, once@^1.4.0:
   version "1.4.0"
@@ -4646,10 +4674,10 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-swiper@^11.0.5:
-  version "11.0.7"
-  resolved "https://registry.yarnpkg.com/swiper/-/swiper-11.0.7.tgz#fe51bb64546c2c21a1ec6914e7764af953443ded"
-  integrity sha512-cDfglW1B6uSmB6eB6pNmzDTNLmZtu5bWWa1vak0RU7fOI9qHjMzl7gVBvYSl34b0RU2N11HxxETJqQ5LeqI1cA==
+swiper@^11.1.1:
+  version "11.1.1"
+  resolved "https://registry.yarnpkg.com/swiper/-/swiper-11.1.1.tgz#5efaa222d4a47a3ac75090cfc2fda6e53e564982"
+  integrity sha512-jGmEA/fNz1lACIcY4/40ggm1Gcyv+EUivmgV/Jd2WFPsEJhbWXnRAwzZR8OPjkBLtDxmzcoYG/iiAMWfRs0YKQ==
 
 symbol-tree@^3.2.4:
   version "3.2.4"
@@ -5070,10 +5098,10 @@ vitepress-plugin-mermaid@2.0.13:
   optionalDependencies:
     "@mermaid-js/mermaid-mindmap" "^9.3.0"
 
-vitepress-plugin-pagefind@0.2.12:
-  version "0.2.12"
-  resolved "https://registry.yarnpkg.com/vitepress-plugin-pagefind/-/vitepress-plugin-pagefind-0.2.12.tgz#9b1db8e283989bb3ce14616bfce9a92a6fc99e64"
-  integrity sha512-1KAS5KVlXkdiL4PeaSHPYbKROCfmvnvCZ4ejFFnVa66Mf4oW+rsCkXxkyadGog4MBBYXWy3NbQrbeL5+zTFZQw==
+vitepress-plugin-pagefind@0.2.14:
+  version "0.2.14"
+  resolved "https://registry.yarnpkg.com/vitepress-plugin-pagefind/-/vitepress-plugin-pagefind-0.2.14.tgz#b1c33fde4be7f4dbb5df6805c08874f1d85eeaf6"
+  integrity sha512-xwx3JtINalPNyMs4NHvgIbzZXwa3wIjj2d5E6+OWbV3FQu9lorHT34mazaDkJxKVdVs8rKucOuxpYLkR9aTYPA==
   dependencies:
     "@vue/shared" "^3.2.45"
     "@vueuse/core" "^9.6.0"
@@ -5084,10 +5112,10 @@ vitepress-plugin-pagefind@0.2.12:
     vue "^3"
     vue-command-palette "^0.1.4"
 
-vitepress-plugin-rss@0.2.2:
-  version "0.2.2"
-  resolved "https://registry.yarnpkg.com/vitepress-plugin-rss/-/vitepress-plugin-rss-0.2.2.tgz#3e1df5e2db1327c4f6b750103ab54741b4e69937"
-  integrity sha512-d/IkQffeNe3HO9gFmJS6hk/dfX085tmOcezYM4EAPraaN+zz1UdZiYTpvQsxRQTYLpQZt/OsmL7Ker4bVRQ0Cw==
+vitepress-plugin-rss@0.2.4:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/vitepress-plugin-rss/-/vitepress-plugin-rss-0.2.4.tgz#ce4cd1cc8233cf2c61a1f737c4317713e2aff38c"
+  integrity sha512-ey4aSzgXi2dpL2g6p+cE6xkbdYvXu/MJjobo9op8vN4te/mgKV3mep6a+/iIHWffSryevNgM+P/YtOFPuqNK2w==
   dependencies:
     fast-glob "^3.2.12"
     feed "^4.2.2"
